@@ -4,4 +4,4 @@ angular.module('libraryApp')
 BooksShowController.$inject=['$http', '$routeParams', '$location'];
 function BooksShowController($http, $routeParams, $location) {
   var vm = this;
-};
+}
