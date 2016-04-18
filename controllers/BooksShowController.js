@@ -26,7 +26,7 @@ function BooksShowController($http, $routeParams, $location) {
     }).then(function successCallback(response) {
          console.log('here\'s the UPDATED data for book', $routeParams.id, ':', response.data);
         vm.book = response.data;
-        $location.path('/');
+        
       }, function errorCallback(response) {
         console.log('There was an error editing the data', response);
       });

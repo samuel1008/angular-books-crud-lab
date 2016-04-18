@@ -1,9 +1,9 @@
 <h2>{{booksShowCtrl.book.title}}</h2>
 <hr>
 <div class="row">
- <div class="col-md-10 col-md-offset-1">
+ <div class="col-md-12">
    <div class="row">
-     <div class="col-md-10 col-md-offset-1">
+     <div class="col-md-12">
        <div class="panel panel-default">
          <div class="panel-body">
            <div class='row'>
@@ -37,6 +37,8 @@
                    </div>
                  </li>
                </ul>
+
+               <a ng-href="$location.path('/');" class="btn btn-default"><span class="glyphicon glyphicon-home"></span></a>
 
                <button class='btn btn-danger' ng-click="booksShowCtrl.deleteBook(book)">Delete Album</button>
 
